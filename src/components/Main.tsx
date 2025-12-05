@@ -18,7 +18,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/hugorod19/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Hugo Rodriguez</h1>
-          <p>Full Stack Engineer</p>
+          <p>FFull-Stack Developer | Python & JavaScript | Data & IT Specialist</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/hugorod19" target="_blank" rel="noreferrer"><GitHubIcon/></a>
