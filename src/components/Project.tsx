@@ -10,6 +10,7 @@ import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import expTracker from '../assets/images/expTracker.png';
+import smop from '../assets/images/smop.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -18,9 +19,18 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={expTracker} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Expense Tracker</h2></a>
-                <p>A web app to help users track income, expenses, and savings goals. Features planned include adding/deleting transactions, categorization, and a dashboard with charts for spending trends.</p>
+                <a href="https://github.com/hugorod19/smop" target="_blank" rel="noreferrer"><img src={smop} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/hugorod19/smop" target="_blank" rel="noreferrer"><h2>SMOP - Soccer Match Outcome Predictor (In Development)</h2></a>
+                <p>
+                    SMOP is a Python and Jupyter-based project that loads, cleans, and analyzes Premier League match data through a structured data-science workflow, including data cleaning, feature engineering using team-strength groups, and train/test splitting. The project builds a machine-learning model with scikit-learn (RandomForest), trains and evaluates it at roughly 59% accuracy, and includes plans to integrate xG features to improve prediction performance.
+                </p>
+            </div>
+                <div className="project">
+                <a href="https://github.com/hugorod19/expense-tracker" target="_blank" rel="noreferrer"><img src={expTracker} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/hugorod19/expense-tracker" target="_blank" rel="noreferrer"><h2>Expense Tracker (In Development)</h2></a>
+                <p>
+                    A full-stack web app to help users track income, expenses, and savings goals. Planned features include adding/deleting transactions, categorization, and a dashboard with charts for spending trends. Built with React (frontend), Node.js/Express (backend), and MongoDB (database). Will include user authentication, persistent storage, and dynamic expense management with a responsive design.
+                </p>
             </div>
             {/* <div className="project">
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
