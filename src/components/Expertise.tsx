@@ -33,12 +33,10 @@ const labelsSecond = [
 
 const labelsThird = [
     "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Python",
+    "Jupyter Notebooks",
+    "Data Cleaning",
+    "Machine Learning",
 ];
 
 function Expertise() {
@@ -82,10 +80,10 @@ function Expertise() {
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Additional skills</h3>
                     <p>
-                        I bring unique experience from industrial automation, including PLC programming, Arduino, Raspberry Pi, and HMI design, which adds another layer of problem-solving to my toolkit. Alongside technical skills, I’m a strong communicator, collaborator, and problem-solver, with experience working directly with clients to deliver solutions that meet real business needs.
+                        Background in industrial automation with experience using PLCs, Arduino, Raspberry Pi, and HMI tools, giving me a strong foundation in technical troubleshooting and system logic. Comfortable working with clients and teams to break down problems and deliver clear solutions. Recent data-science work has added practical skills in Python, Jupyter notebooks, data cleaning, feature engineering, exploratory analysis, and training machine-learning models.
                     </p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skills:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}

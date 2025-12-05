@@ -16,14 +16,28 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2025 - present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Freelance Software Developer / IT Professional </h3>
+            <h4 className="vertical-timeline-element-subtitle">Houston, TX</h4>
+            <p>
+              Working on software, data, and IT projects, including SMOP — a Python/Jupyter machine-learning model for match predictions. Focused on building small applications, improving technical skills, and helping clients with basic troubleshooting and diagnostics.
+              </p>
+          </VerticalTimelineElement>
+                    <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2022 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Programmer Analyst </h3>
             <h4 className="vertical-timeline-element-subtitle">Houston, TX</h4>
             <p>
-              Evaluated business problems and creates software solutions by combining technical development with system analysis.
+              Worked on automation equipment using PLCs, HMIs, Arduino, and Raspberry Pi to help build, test, and troubleshoot control systems for clients.
             </p>
           </VerticalTimelineElement>
           {/* <VerticalTimelineElement
